@@ -66,7 +66,7 @@ section>p{
 }
 
 a{
-     color: var(--color-white); 
+     /* color: var(--color-white);  */
     transition: var(--transition);
 }
 h1,h2,h3,h4,h5,h6{

@@ -1,9 +1,12 @@
-import React, { Children } from 'react'
+import './Card.css';
 
 
 const Card = ({Children,className,onClick})=> {
   return (
-  <article className={'{card ${className} '} onClick={onClick}>{Children}
+  <article className={`card ${className}`} onClick={onClick}>
+  
+    {Children}
+  
 
   </article>
   )
